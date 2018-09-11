@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
+print("Welcome to the Video Game Library.\n")
+let libraryMenu = Menu()
+libraryMenu.go()
 
+libraryMenu.getInput()
