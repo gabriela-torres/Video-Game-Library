@@ -10,6 +10,4 @@ import Foundation
 
 print("Welcome to the Video Game Library.\n")
 let libraryMenu = Menu()
-libraryMenu.go()
-
-libraryMenu.getInput()
+libraryMenu.go() //This handles running the logic loop for our video game library. Once we break out of this function, the library will close
