@@ -92,7 +92,7 @@ class Library {
         //Remove the due date since the game has been returned
         gamesArray[userInput!].dueDate = nil 
     }
-    func listUnavailableGames() {
+    func listUnavailableGames() { //Checking for unavalible games in the game library
         for game in gamesArray {
             if !game.checkIn {
                 print(game.title)

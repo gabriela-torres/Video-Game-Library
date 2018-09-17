@@ -23,7 +23,7 @@ class Menu {
             handleInput(input)
         }
     }
-    func validateInput(_ input: String) -> Bool {
+    func validateInput(_ input: String) -> Bool { //Checking for valide input
         let validMenuOptions = Array(1...8)
         guard let number = Int(input) else {
             return false
@@ -83,7 +83,7 @@ Please enter a number between 1 and 8:\n
         //Show user a message
         print("Thank you for using the application.")
     }
-    func getInput() -> String {
+    func getInput() -> String { //Getting users input
         var userInput = readLine()
         while userInput == nil || userInput == "" {
             print("Please give a valid input")

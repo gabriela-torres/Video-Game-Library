@@ -8,6 +8,7 @@
 
 import Foundation
 
+//Game bass class
 class Game {
     let title: String
     var checkIn: Bool = true
